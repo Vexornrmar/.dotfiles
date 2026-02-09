@@ -107,3 +107,5 @@ noremap у e
 noremap У E
 noremap в d
 noremap В D
+noremap к r 
+noremap К R
