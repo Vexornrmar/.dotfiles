@@ -6,6 +6,11 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
+# ToDO: 1. make it executable without asking for password
+#       2. add clear 
+#       3. add timer to show how fast it installed
+#       4. add more files and programs
+
 echo "                 _              _     "
 echo "   __ _   _ __  | |__    _ __  | | __ "
 echo "  / _  | |  __| |  _ \  |  __| | |/ / "
