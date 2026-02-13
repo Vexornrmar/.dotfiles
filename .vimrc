@@ -1,4 +1,5 @@
-" vim configuration file
+" Welcome to vim configuration file!
+
 " basic configuration
 syntax on
 set expandtab
@@ -8,7 +9,11 @@ set shiftwidth=4
 set history=1000
 set autoindent
 set number
+set relativenumber " added funny numbers
 set noswapfile
+
+" two plugins were supposed to be here,
+" and they will appeare when I figgure out how to install them
 
 " remapping basic thinks like ctr s or ctr z
 nnoremap <C-z> u
@@ -28,7 +33,7 @@ nnoremap <C-q>s :w<CR>
 
 nnoremap <C-a> ggVG
 
-" Disable arrow keys in Normal mode 
+" Disable arrow keys in Normal mode
 nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
 nnoremap <Left> <Nop>
@@ -107,5 +112,5 @@ noremap у e
 noremap У E
 noremap в d
 noremap В D
-noremap к r 
+noremap к r
 noremap К R
